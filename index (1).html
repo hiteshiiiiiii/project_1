@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Event Countdown Timer</h1>
+    <div class="input-container">
+        <label for="date">Enter Date:</label>
+        <input type="date" id="date">
+        <label for="time">Enter Time:</label>
+        <input type="time" id="time">
+    </div>
+    <div class="button-container">
+        <button id="calculate">Start Countdown</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="countdown">
+        <div>
+            <p class="heading">DAYS</p>
+            <div class="time" id="countdown-days">0</div>
+        </div>
+        <div>
+            <p class="heading">HOURS</p>
+            <div class="time" id="countdown-hours">0</div>
+        </div>
+        <div>
+            <p class="heading">MINUTES</p>
+            <div class="time" id="countdown-minutes">0</div>
+        </div>
+        <div>
+            <p class="heading">SECONDS</p>
+            <div class="time" id="countdown-seconds">0</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
